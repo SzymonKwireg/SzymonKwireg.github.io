@@ -1,1 +1,0 @@
-# SzymonKwireg.github.io
