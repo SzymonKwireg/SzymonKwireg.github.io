@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="author" content="Szymon Kwiręg" />
+		<meta name="generator" content="Visual Studio Code" />
+		<title>Piękno Ziemi</title>
+        <link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+        <header>
+            <div id="h"><h1>PIĘKNO ZIEMI</h1></div>
+            <button onclick="renderMenu()"><img src="img/menu.svg"></svg></button>
+        </header>
+        <nav>
+            <h1>MENU</h1>
+            <hr/>
+            <table>
+                <tr>
+                    <td>
+                        <a href="europa.html">EUROPA</a>
+                    </td>
+                    <td rowspan="2" class="imagerow">
+                        <a href="index.html"><img src="img/home.svg" id="ankieta"/></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="azja.html">AZJA</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="amerykapn.html">AMERYKA PÓŁNOCNA</a>
+                    </td>
+                    <td rowspan="2" class="imagerow">
+                        <a href="ankieta.html"><img src="img/ankieta.svg" id="ankieta"/></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="amerykapd.html">AMERYKA POŁUDNIOWA</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="afryka.html">AFRYKA</a>
+                    </td>
+                    <td rowspan="2" class="imagerow">
+                        <a href="mailto:szymonowka@gmail.com" id="mail"><img src="img/mail.svg" /></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="australia.html">AUSTRALIA I OCEANIA</a>
+                    </td>
+                </tr>
+            </table>
+        </nav>
+        <main>
+            <div id="background" style="background-image: url(&quot;img/fiordy/fiordy_4.jpg&quot;);">
+                <article>
+                    <h1>EUROPA</h1>
+                    <hr/>
+                    <br/>
+                    <br/>
+                    <div class="list-element" style="border-top: 0px;">
+                        <h3>Wodospad Štrbački buk</h3>
+                        <a href="https://en.wikipedia.org/wiki/%C5%A0trba%C4%8Dki_buk"><img src="img/wikipedia.svg" class="wikipedia" /></a>
+                        <hr/>
+                        <div class="image-container">
+                            <a href="img/strbacki_buk/strbacki_buk_1.jpg" target="_blank" id="a-strbacki-buk"><img src="img/strbacki_buk/strbacki_buk_1.jpg" id="gallery-strbacki-buk"/></a>
+                            <div class="image-changer">
+                                <button onclick="changeImageInGalleryBack('strbacki_buk',document.getElementById('gallery-strbacki-buk'),document.getElementById('a-strbacki-buk'))">▶</button>
+                                <button onclick="changeImageInGalleryForward('strbacki_buk',document.getElementById('gallery-strbacki-buk'),document.getElementById('a-strbacki-buk'))">◀</button>
+                            </div>
+                        </div>
+                        <div class="text-container">
+                            <p>
+                                Wodospad Štrbački buk jest położony na granicy Bośni i Hercegowiny oraz Chorwacji, niedaleko miasta Bihać na rzece Unie.
+                            </p>
+                            <p>
+                                Wodospad ten ma ok. 24,5 m wysokości.
+                            </p>
+                            <p>
+                                Wchodzi w skład Parku Narodowego Una, w którym znajduje się jeszcze kilka innych wodospadów. Dawniej, w okolicy tego wodospadu budowano liczne młyny.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="list-element">
+                        <h3>Fiordy</h3>
+                        <a href="https://pl.wikipedia.org/wiki/Fiord"><img src="img/wikipedia.svg" class="wikipedia" /></a>
+                        <hr/>
+                        <div class="image-container">
+                            <a href="img/fiordy/fiordy_1.jpg" target="_blank" id="a-fiordy"><img src="img/fiordy/fiordy_1.jpg" id="gallery-fiordy"/></a>
+                            <div class="image-changer">
+                                <button onclick="changeImageInGalleryBack('fiordy',document.getElementById('gallery-fiordy'),document.getElementById('a-fiordy'))">▶</button>
+                                <button onclick="changeImageInGalleryForward('fiordy',document.getElementById('gallery-fiordy'),document.getElementById('a-fiordy'))">◀</button>
+                            </div>
+                        </div>
+                        <div class="text-container">
+                            <p>
+                                Fiordy to wąskie zatoki, zazwyczaj z wysokimi, czy wręcz górzystymi brzegami, wcinające się głęboko w głąb lądu. Występują głównie w Szkocji i krajach skandynawskich.
+                            </p>
+                            <p>
+                                Szczególnie piękne fiordy można zobaczyć w Norwegii - wysokie góry tuż obok głębokiej zatoki wyglądają niesamowicie.
+                            </p>
+                            <p>
+                                Najdłuższe fiordy na świecie to:
+                                <ol>
+                                    <li>Kangertittivaq, Grenlandia - 350 km</li>
+                                    <li>Sognefjorden, Norwegia - 203 km</li>
+                                    <li>Hardangerfjord, Norwegia - 179 km</li>
+                                </ol>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="list-element">
+                        <a href="https://pl.wikipedia.org/wiki/S%C5%82owi%C5%84ski_Park_Narodowy"><img src="img/wikipedia.svg" class="wikipedia" /></a>
+                        <h3>Wydmy w Słowińskim Parku Narodowym</h3>
+                        <hr/>
+                        <div class="image-container">
+                            <a href="img/wydmy/wydmy_1.jpg" target="_blank" id="a-wydmy"><img src="img/wydmy/wydmy_1.jpg" id="gallery-wydmy"/></a>
+                            <div class="image-changer">
+                                <button onclick="changeImageInGalleryBack('wydmy',document.getElementById('gallery-wydmy'),document.getElementById('a-wydmy'))">▶</button>
+                                <button onclick="changeImageInGalleryForward('wydmy',document.getElementById('gallery-wydmy'),document.getElementById('a-wydmy'))">◀</button>
+                            </div>
+                        </div>
+                        <div class="text-container">
+                            <p>
+                                Żeby zobaczyć wydmy, wcale nie trzeba się wybierać do Arabii czy Afryki - mamy je u siebie, w Słowińskim Parku Narodowym.
+                            </p>
+                            <p>
+                                Najpopularniejszym miejscem w całym Parku Narodowym jest bez wątpienia ruchoma Wydma Łącka, nazwana po wiosce Łączka, zasypanej przez nią ok. 300 lat temu. Wydma zajmuje powierzchnię ok. 500 hektarów i wznosi się na wysokość 30 m. n.p.m.
+                            </p>
+                        </div>
+                    </div>
+
+                </article>
+            </div>
+        </main>
+        <footer>
+            Autor: Szymon Kwiręg<br/>Data utworzenia: 19.04.2021
+        </footer>
+        <script src="js/main.js"></script>
+	</body>
+</html>

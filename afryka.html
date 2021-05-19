@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="author" content="Szymon Kwiręg" />
+		<meta name="generator" content="Visual Studio Code" />
+		<title>Piękno Ziemi</title>
+        <link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+        <header>
+            <div id="h"><h1>PIĘKNO ZIEMI</h1></div>
+            <button onclick="renderMenu()"><img src="img/menu.svg"></svg></button>
+        </header>
+        <nav>
+            <h1>MENU</h1>
+            <hr/>
+            <table>
+                <tr>
+                    <td>
+                        <a href="europa.html">EUROPA</a>
+                    </td>
+                    <td rowspan="2" class="imagerow">
+                        <a href="index.html"><img src="img/home.svg" id="ankieta"/></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="azja.html">AZJA</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="amerykapn.html">AMERYKA PÓŁNOCNA</a>
+                    </td>
+                    <td rowspan="2" class="imagerow">
+                        <a href="ankieta.html"><img src="img/ankieta.svg" id="ankieta"/></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="amerykapd.html">AMERYKA POŁUDNIOWA</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="afryka.html">AFRYKA</a>
+                    </td>
+                    <td rowspan="2" class="imagerow">
+                        <a href="mailto:szymonowka@gmail.com" id="mail"><img src="img/mail.svg" /></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="australia.html">AUSTRALIA I OCEANIA</a>
+                    </td>
+                </tr>
+            </table>
+        </nav>
+        <main>
+            <div id="background" style="background-image: url(&quot;img/rowy/rowy_1.jpg&quot;);">
+                <article>
+                    <h1>AFRYKA</h1>
+                    <hr/>
+                    <br/>
+                    <br/>
+                    <div class="list-element" style="border-top: 0px;">
+                        <h3>Wielkie Rowy Afrykańskie</h3>
+                        <a href="https://pl.wikipedia.org/wiki/Wielkie_Rowy_Afryka%C5%84skie"><img src="img/wikipedia.svg" class="wikipedia" /></a>
+                        <hr/>
+                        <div class="image-container">
+                            <a href="img/rowy/rowy_1.jpg" target="_blank" id="a-rowy"><img src="img/rowy/rowy_1.jpg" id="gallery-rowy"/></a>
+                            <div class="image-changer">
+                                <button onclick="changeImageInGalleryBack('rowy',document.getElementById('gallery-rowy'),document.getElementById('a-rowy'))">▶</button>
+                                <button onclick="changeImageInGalleryForward('rowy',document.getElementById('gallery-rowy'),document.getElementById('a-rowy'))">◀</button>
+                            </div>
+                        </div>
+                        <div class="text-container">
+                            <p>
+                                Wielkie Rowy Afrykańskie rozciągają się na długości ok. 6,5 tys. km. Miejscami mają aż 500 m głębokości i nawet 100 km. szerokości.
+                            </p>
+                            <p>
+                                W niektórych miejscach dna rowów są zalane wodą - tworzy to jeziora, z których najbardziej znanymi są: Tanganika, Niasa czy jezioro Edwarda.
+                            </p>
+                            <p>
+                                Według badań, to w okolicy Wielkich Rowów zaczęła się ewolucja człowieka.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="list-element">
+                        <h3>Jezioro Wiktorii</h3>
+                        <a href="https://pl.wikipedia.org/wiki/Jezioro_Wiktorii"><img src="img/wikipedia.svg" class="wikipedia" /></a>
+                        <hr/>
+                        <div class="image-container">
+                            <a href="img/wiktoria/wiktoria_1.jpg" target="_blank" id="a-wiktoria"><img src="img/wiktoria/wiktoria_1.jpg" id="gallery-wiktoria"/></a>
+                            <div class="image-changer">
+                                <button onclick="changeImageInGalleryBack('wiktoria',document.getElementById('gallery-wiktoria'),document.getElementById('a-wiktoria'))">▶</button>
+                                <button onclick="changeImageInGalleryForward('wiktoria',document.getElementById('gallery-wiktoria'),document.getElementById('a-wiktoria'))">◀</button>
+                            </div>
+                        </div>
+                        <div class="text-container">
+                            <p>
+                                Jezioro Wiktorii to największe jezioro Afryki i trzecie największe na świecie. Jest położone między dwoma z Wielkich Rowów.
+                            </p>
+                            <p>
+                                Z Jeziora Wiktorii wypływa Nil Biały, który łączy się z Nilem Błękitnym, tworząc jedną rzekę.
+                            </p>
+                            <p>
+                                Powierzchnia jeziora wynosi 68,8 tys. km², a łączna powierzchnia wszystkich jego wysp - 6 tys. km².
+                            </p>
+                        </div>
+                    </div>
+                    <div class="list-element">
+                        <h3>Kilimandżaro</h3>
+                        <a href="https://pl.wikipedia.org/wiki/Kilimand%C5%BCaro"><img src="img/wikipedia.svg" class="wikipedia" /></a>
+                        <hr/>
+                        <div class="image-container">
+                            <a href="img/kilimandzaro/kilimandzaro_1.jpg" target="_blank" id="a-kilimandzaro"><img src="img/kilimandzaro/kilimandzaro_1.jpg" id="gallery-kilimandzaro"/></a>
+                            <div class="image-changer">
+                                <button onclick="changeImageInGalleryBack('kilimandzaro',document.getElementById('gallery-kilimandzaro'),document.getElementById('a-kilimandzaro'))">▶</button>
+                                <button onclick="changeImageInGalleryForward('kilimandzaro',document.getElementById('gallery-kilimandzaro'),document.getElementById('a-kilimandzaro'))">◀</button>
+                            </div>
+                        </div>
+                        <div class="text-container">
+                            <p>
+                                Jest najwyższą górą Afryki, a przy tym jedynym miejscem na całym kontynencie, gdzie przez cały rok leży śnieg.
+                            </p>
+                            <p>
+                                Kilimandżaro ma trzy szczyty - Uhuru, Mawenzi i Shira, z czego każdy jest wygasłym wulkanem.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </main>
+        <footer>
+            Autor: Szymon Kwiręg<br/>Data utworzenia: 19.04.2021
+        </footer>
+        <script src="js/main.js"></script>
+	</body>
+</html>

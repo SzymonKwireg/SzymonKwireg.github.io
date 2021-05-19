@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="author" content="Szymon Kwiręg" />
+		<meta name="generator" content="Visual Studio Code" />
+		<title>Piękno Ziemi</title>
+        <link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+        <header>
+            <div id="h"><h1>PIĘKNO ZIEMI</h1></div>
+            <button onclick="renderMenu()"><img src="img/menu.svg"></svg></button>
+        </header>
+        <nav>
+            <h1>MENU</h1>
+            <hr/>
+            <table>
+                <tr>
+                    <td>
+                        <a href="europa.html">EUROPA</a>
+                    </td>
+                    <td rowspan="2" class="imagerow">
+                        <a href="index.html"><img src="img/home.svg" id="ankieta"/></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="azja.html">AZJA</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="amerykapn.html">AMERYKA PÓŁNOCNA</a>
+                    </td>
+                    <td rowspan="2" class="imagerow">
+                        <a href="ankieta.html"><img src="img/ankieta.svg" id="ankieta"/></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="amerykapd.html">AMERYKA POŁUDNIOWA</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="afryka.html">AFRYKA</a>
+                    </td>
+                    <td rowspan="2" class="imagerow">
+                        <a href="mailto:szymonowka@gmail.com" id="mail"><img src="img/mail.svg" /></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="australia.html">AUSTRALIA I OCEANIA</a>
+                    </td>
+                </tr>
+            </table>
+        </nav>
+        <main>
+            <div id="background" style="background-image: url(&quot;img/lodowiec/lodowiec_3.jpg&quot;);">
+                <article>
+                    <h1>AMERYKA POŁUDNIOWA</h1>
+                    <hr/>
+                    <br/>
+                    <br/>
+                    <div class="list-element" style="border-top: 0px;">
+                        <h3>Perito Moreno</h3>
+                        <a href="https://pl.wikipedia.org/wiki/Perito_Moreno"><img src="img/wikipedia.svg" class="wikipedia" /></a>
+                        <hr/>
+                        <div class="image-container">
+                            <a href="img/lodowiec/lodowiec_1.jpg" target="_blank" id="a-lodowiec"><img src="img/lodowiec/lodowiec_1.jpg" id="gallery-lodowiec"/></a>
+                            <div class="image-changer">
+                                <button onclick="changeImageInGalleryBack('lodowiec',document.getElementById('gallery-lodowiec'),document.getElementById('a-lodowiec'))">▶</button>
+                                <button onclick="changeImageInGalleryForward('lodowiec',document.getElementById('gallery-lodowiec'),document.getElementById('a-lodowiec'))">◀</button>
+                            </div>
+                        </div>
+                        <div class="text-container">
+                            <p>
+                                Położony w argentyńskiej Patagonii lodowiec Perito Moreno jest bez wątpienia najpiękniejszym miejscem Ameryki Południowej, a według mnie - najpiękniejszym na świecie.
+                            </p>
+                            <p>
+                                Lodowiec imponuje samymi rozmiarami - 2,5 km szerokości, 60 m wysokości i 30 km długości, co daje mu pozycję trzeciego największego lodowca na świecie. Mało tego, on ciągle rośnie - aż o 2 metry dziennie!
+                            </p>
+                            <p>
+                                Perito Moreno nie jest jedynym lodowcem Patagonii - łącznie jest ich tam ponad 48!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="list-element">
+                        <h3>Lasy deszczowe Amazonii</h3>
+                        <a href="https://pl.wikipedia.org/wiki/Amazonia"><img src="img/wikipedia.svg" class="wikipedia" /></a>
+                        <hr/>
+                        <div class="image-container">
+                            <a href="img/amazonia/amazonia_1" target="_blank" id="a-amazonia"><img src="img/amazonia/amazonia_1.jpg" id="gallery-amazonia"/></a>
+                            <div class="image-changer">
+                                <button onclick="changeImageInGalleryBack('amazonia',document.getElementById('gallery-amazonia'),document.getElementById('a-amazonia'))">▶</button>
+                                <button onclick="changeImageInGalleryForward('amazonia',document.getElementById('gallery-amazonia'),document.getElementById('a-amazonia'))">◀</button>
+                            </div>
+                        </div>
+                        <div class="text-container">
+                            <p>
+                                Nazywane czasem zielonymi płucami świata, lasy amazońskie zajmują ok. 5,5 mln km²
+                            </p>
+                            <p>
+                                W Amazonii żyje 2/3 gatunków zwierząt i roślin świata, przy czym z roślin poznaliśmy dopiero 1% z nich. Wśród nich takie ciekawe jak:
+                                <ul>
+                                    <li>
+                                        Arapaima - ryba mierząca nawet 4 metry długości i ważąca do 200 kg.
+                                    </li>
+                                    <li>
+                                        Drzewo, które co kilka miesięcy zrzuca korę, żeby pozbyć się ewentualnych pasożytów.
+                                    </li>
+                                    <li>
+                                        Palma, która "chodzi" w poszukiwaniu bardziej nasłonecznionego miejsca w tempie 20 cm na rok.
+                                    </li>
+                                    <li>
+                                        Bullet ant - mrówka z najsilniejszym jadem na świecie, powodującym silny ból nawet do 24 godzin po ukąszeniu.
+                                    </li>
+                                    <li>
+                                        I wiele innych...
+                                    </li>
+                                </ul>
+                            </p>
+                            <p>
+                                Niestety, lasy amazońskie są zagrożone - wycinką, suszą, pożarami. Dalsze wylesianie Amazonii może doprowadzić do katastrofalnych skutków, które odbiją się na całym świecie. 
+                            </p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </main>
+        <footer>
+            Autor: Szymon Kwiręg<br/>Data utworzenia: 19.04.2021
+        </footer>
+        <script src="js/main.js"></script>
+	</body>
+</html>

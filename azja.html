@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="author" content="Szymon Kwiręg" />
+		<meta name="generator" content="Visual Studio Code" />
+		<title>Piękno Ziemi</title>
+        <link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+        <header>
+            <div id="h"><h1>PIĘKNO ZIEMI</h1></div>
+            <button onclick="renderMenu()"><img src="img/menu.svg"></svg></button>
+        </header>
+        <nav>
+            <h1>MENU</h1>
+            <hr/>
+            <table>
+                <tr>
+                    <td>
+                        <a href="europa.html">EUROPA</a>
+                    </td>
+                    <td rowspan="2" class="imagerow">
+                        <a href="index.html"><img src="img/home.svg" id="ankieta"/></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="azja.html">AZJA</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="amerykapn.html">AMERYKA PÓŁNOCNA</a>
+                    </td>
+                    <td rowspan="2" class="imagerow">
+                        <a href="ankieta.html"><img src="img/ankieta.svg" id="ankieta"/></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="amerykapd.html">AMERYKA POŁUDNIOWA</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="afryka.html">AFRYKA</a>
+                    </td>
+                    <td rowspan="2" class="imagerow">
+                        <a href="mailto:szymonowka@gmail.com" id="mail"><img src="img/mail.svg" /></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="australia.html">AUSTRALIA I OCEANIA</a>
+                    </td>
+                </tr>
+            </table>
+        </nav>
+        <main>
+            <div id="background" style="background-image: url(&quot;img/himalaje/himalaje_1.jpg&quot;);">
+                <article>
+                    <h1>AZJA</h1>
+                    <hr/>
+                    <br/>
+                    <br/>
+                    <div class="list-element" style="border-top: 0px;">
+                        <h3>Huang He (Żółta Rzeka)</h3>
+                        <a href="https://pl.wikipedia.org/wiki/Huang_He"><img src="img/wikipedia.svg" class="wikipedia" /></a>
+                        <hr/>
+                        <div class="image-container">
+                            <a href="img/huanghe/huanghe_1.jpg" target="_blank" id="a-huanghe"><img src="img/huanghe/huanghe_1.jpg" id="gallery-huanghe"/></a>
+                            <div class="image-changer">
+                                <button onclick="changeImageInGalleryBack('huanghe',document.getElementById('gallery-huanghe'),document.getElementById('a-huanghe'))">▶</button>
+                                <button onclick="changeImageInGalleryForward('huanghe',document.getElementById('gallery-huanghe'),document.getElementById('a-huanghe'))">◀</button>
+                            </div>
+                        </div>
+                        <div class="text-container">
+                            <p>
+                                Huang He to druga co do długości rzeka w Chinach, i prawdopodobnie najbardziej niezwykła na świecie. Jej nazwa oznacza dosłownie "Żółta Rzeka". Nazwa pochodzi od żółtego zabarwienia wód, powodowanego przez namuły lessowe.
+                            </p>
+                            <p>
+                                Rzeka Huang He, mimo swojego piękna, jest śmiertelnie niebezpieczna. Bardzo często powoduje powodzie, z czego największa (w 1642 r) zabiła ok. 300 tysięcy ludzi. Często także zmienia swój bieg, co powoduje katastrofalne konsekwencje dla rolnictwa.
+                            </p>
+                            <p>
+                                Szacuje się, że Żółta Rzeka wyrzuca do moża 1,4 mld ton nanosu lessowego.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="list-element">
+                        <h3>Himalaje</h3>
+                        <a href="https://pl.wikipedia.org/wiki/Himalaje"><img src="img/wikipedia.svg" class="wikipedia" /></a>
+                        <hr/>
+                        <div class="image-container">
+                            <a href="img/himalaje/himalaje_1.jpg" target="_blank" id="a-himalaje"><img src="img/himalaje/himalaje_1.jpg" id="gallery-himalaje"/></a>
+                            <div class="image-changer">
+                                <button onclick="changeImageInGalleryBack('himalaje',document.getElementById('gallery-himalaje'),document.getElementById('a-himalaje'))">▶</button>
+                                <button onclick="changeImageInGalleryForward('himalaje',document.getElementById('gallery-himalaje'),document.getElementById('a-himalaje'))">◀</button>
+                            </div>
+                        </div>
+                        <div class="text-container">
+                            <p>
+                                Himalaje - najwyższe góry świata są pełne świetnych widoków, jak te w galerii po lewej.
+                            </p>
+                            <p>
+                                Góry w Himalajach są naprawdę gigantyczne - aż 10 z nich ma wysokość powyżej 8 tys. metrów nad poziomem morza.
+                            </p>
+                            <p>
+                                Jednak Himalaje to nie tylko szczyty - są tam także jeziora (jak np. Jezioro Krucze, pokazane na jednym ze zdjęć), lodowce, czy przepiękne doliny.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="list-element">
+                        <h3>Góra Fudżi</h3>
+                        <a href="https://pl.wikipedia.org/wiki/Fud%C5%BCi"><img src="img/wikipedia.svg" class="wikipedia" /></a>
+                        <hr/>
+                        <div class="image-container">
+                            <a href="img/fudzi/fudzi_1.jpg" target="_blank" id="a-fudzi"><img src="img/fudzi/fudzi_1.jpg" id="gallery-fudzi"/></a>
+                            <div class="image-changer">
+                                <button onclick="changeImageInGalleryBack('fudzi',document.getElementById('gallery-fudzi'),document.getElementById('a-fudzi'))">▶</button>
+                                <button onclick="changeImageInGalleryForward('fudzi',document.getElementById('gallery-fudzi'),document.getElementById('a-fudzi'))">◀</button>
+                            </div>
+                        </div>
+                        <div class="text-container">
+                            <p>
+                                Niemalże idealnie stożkowata góra Fudżi to najwyższy szczyt Japonii, i miejsce święte dla wyznawców religii shinto.
+                            </p>
+                            <p>
+                                Góra Fudżi to także aktywny wulkan. Mimo tego, że przez ostatnie 300 lat nie było żadnej erupcji, coraz częściej pojawiają się ostrzeżenia, że takowa może nastąpić.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </main>
+        <footer>
+            Autor: Szymon Kwiręg<br/>Data utworzenia: 19.04.2021
+        </footer>
+        <script src="js/main.js"></script>
+	</body>
+</html>

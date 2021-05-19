@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="author" content="Szymon Kwiręg" />
+		<meta name="generator" content="Visual Studio Code" />
+		<title>Piękno Ziemi</title>
+        <link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+        <header>
+            <div id="h"><h1>PIĘKNO ZIEMI</h1></div>
+            <button onclick="renderMenu()"><img src="img/menu.svg"></svg></button>
+        </header>
+        <nav>
+            <h1>MENU</h1>
+            <hr/>
+            <table>
+                <tr>
+                    <td>
+                        <a href="europa.html">EUROPA</a>
+                    </td>
+                    <td rowspan="2" class="imagerow">
+                        <a href="index.html"><img src="img/home.svg" id="ankieta"/></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="azja.html">AZJA</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="amerykapn.html">AMERYKA PÓŁNOCNA</a>
+                    </td>
+                    <td rowspan="2" class="imagerow">
+                        <a href="ankieta.html"><img src="img/ankieta.svg" id="ankieta"/></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="amerykapd.html">AMERYKA POŁUDNIOWA</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="afryka.html">AFRYKA</a>
+                    </td>
+                    <td rowspan="2" class="imagerow">
+                        <a href="mailto:szymonowka@gmail.com" id="mail"><img src="img/mail.svg" /></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="australia.html">AUSTRALIA I OCEANIA</a>
+                    </td>
+                </tr>
+            </table>
+        </nav>
+        <main>
+            <div id="background" style="background-image: url(&quot;img/denali/denali_1.jpg&quot;);">
+                <article>
+                    <h1>AMERYKA PÓŁNOCNA</h1>
+                    <hr/>
+                    <br/>
+                    <br/>
+                    <div class="list-element" style="border-top: 0px;">
+                        <h3>Denali</h3>
+                        <a href="https://pl.wikipedia.org/wiki/Denali"><img src="img/wikipedia.svg" class="wikipedia" /></a>
+                        <hr/>
+                        <div class="image-container">
+                            <a href="img/denali/denali_1.jpg" target="_blank" id="a-denali"><img src="img/denali/denali_1.jpg" id="gallery-denali"/></a>
+                            <div class="image-changer">
+                                <button onclick="changeImageInGalleryBack('denali',document.getElementById('gallery-denali'),document.getElementById('a-denali'))">▶</button>
+                                <button onclick="changeImageInGalleryForward('denali',document.getElementById('gallery-denali'),document.getElementById('a-denali'))">◀</button>
+                            </div>
+                        </div>
+                        <div class="text-container">
+                            <p>
+                                Denali (do 2015 Mount McKinley) to najwyższy szczyt w Ameryce Północnej, położony na Alasce. Nazwa wywodzi się z języka tamtejszych Indian i oznacza dosłownie "wysoki". Szczyt ma wysokość 6190 m n.p.m.
+                            </p>
+                            <p>
+                                U podnóża góry znajduje się piękne, polodowcowe jezioro Wonder Lake, w którym można ujrzeć odbicie Denali.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="list-element">
+                        <h3>Wielki Kanion</h3>
+                        <a href="https://pl.wikipedia.org/wiki/Wielki_Kanion_Kolorado"><img src="img/wikipedia.svg" class="wikipedia" /></a>
+                        <hr/>
+                        <div class="image-container">
+                            <a href="img/kanion/kanion_1.jpg" target="_blank" id="a-kanion"><img src="img/kanion/kanion_1.jpg" id="gallery-kanion"/></a>
+                            <div class="image-changer">
+                                <button onclick="changeImageInGalleryBack('kanion',document.getElementById('gallery-kanion'),document.getElementById('a-kanion'))">▶</button>
+                                <button onclick="changeImageInGalleryForward('kanion',document.getElementById('gallery-kanion'),document.getElementById('a-kanion'))">◀</button>
+                            </div>
+                        </div>
+                        <div class="text-container">
+                            <p>
+                                Wielki Kanion Kolorado jest przykładem tego, jak niesamowite miejsca może stworzyć natura. Ciągnąca się przez ok. 446 km dolina rzeki Kolorado, to jedno z najbardziej niezwykłych miejsc na ziemi.
+                            </p>
+                            <p>
+                                Można tam zobaczyć wszelkiej maści formacje skalne - iglice, strome zbocza, łuki itp. Sam kanion jest miejscami szeroki na 26 km!
+                            </p>
+                            <p>
+                                Kanion jest tak wielki, że można go zobaczyć z kosmosu.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="list-element">
+                        <h3>Park Narodowy Sekwoi</h3>
+                        <a href="https://pl.wikipedia.org/wiki/Park_Narodowy_Sekwoi"><img src="img/wikipedia.svg" class="wikipedia" /></a>
+                        <hr/>
+                        <div class="image-container">
+                            <a href="img/sekwoje/sekwoje_1.jpg" target="_blank" id="a-sekwoje"><img src="img/sekwoje/sekwoje_1.jpg" id="gallery-sekwoje"/></a>
+                            <div class="image-changer">
+                                <button onclick="changeImageInGalleryBack('sekwoje',document.getElementById('gallery-sekwoje'),document.getElementById('a-sekwoje'))">▶</button>
+                                <button onclick="changeImageInGalleryForward('sekwoje',document.getElementById('gallery-sekwoje'),document.getElementById('a-sekwoje'))">◀</button>
+                            </div>
+                        </div>
+                        <div class="text-container">
+                            <p>
+                                W Parku Narodowym Sekwoi, położonym w Kalifornii, można zobaczyć największe i bardzo stare drzewa, głównie sekwoje, ale także jodły i sosny. W parku narodowym znajduje się też najwyższy szczyt kontynentalnych (bez Hawajów i Alaski) Stanów Zjednoczonych - Mount Whithey, o wysokości 4421 m. n.p.m.
+                            </p>
+                            <p>
+                                Można tam zobaczyć m.in. największe drzewo na świecie, General Sherman, o wysokości 84 m i średnicy pnia 8 m.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </main>
+        <footer>
+            Autor: Szymon Kwiręg<br/>Data utworzenia: 19.04.2021
+        </footer>
+        <script src="js/main.js"></script>
+	</body>
+</html>
